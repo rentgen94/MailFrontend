@@ -1,4 +1,8 @@
-import { printText } from './scripts/something';
-import './styles/index.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App';
 
-printText('test from console');
+ReactDOM.render(
+    <App />,
+    document.getElementById('root'),
+);
