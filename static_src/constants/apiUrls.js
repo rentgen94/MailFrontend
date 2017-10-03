@@ -1,3 +1,6 @@
 export default {
-    tasks: '/api/tasks',
+    users: 'api/users/',
+    loginToken: 'api/token-auth/',
+    loginCookie: 'api/auth/login/',
+    tasks: '/api/tasks/',
 };

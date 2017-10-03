@@ -4,7 +4,7 @@ const NODE_ENV = process.env.NODE_ENV || 'development';
 
 module.exports = {
     entry: {
-        testBundle: './test',
+        testBundle: './testRedux',
         indexBundle: './index',
     },
     context: `${__dirname}/static_src`,
@@ -50,7 +50,7 @@ module.exports = {
             // },
             {
                 test: /\.(js|jsx)$/,
-                include: `${__dirname}/static_src`,
+                include: `${__dirname}\\static_src`,
                 loader: 'babel-loader?presets[]=react&presets[]=es2015&presets[]=stage-1',  
             },
             {

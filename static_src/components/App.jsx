@@ -1,10 +1,20 @@
 import React from 'react';
 import Registration from './Registration';
+import LoginForm from './LoginForm';
+import Footer from './Footer';
+import AddTodo from '../containers/AddTodo';
+import VisibleTodoList from '../containers/VisibleTodoList';
 
 class App extends React.Component {
     render() {
         return (
-            <Registration />
+            <div>
+                <Registration />
+                <LoginForm />
+                <AddTodo />
+                <VisibleTodoList />
+                <Footer />
+            </div>
         );
     }
 }
